@@ -1,1 +1,90 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: radial-gradient(
+    circle 935px at 3.1% 5.8%,
+    rgba(182, 255, 139, 1) 0%,
+    rgba(8, 88, 127, 1) 100.2%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.card {
+  background-image: linear-gradient(
+    109.5deg,
+    rgba(229, 233, 177, 1) 11.2%,
+    rgba(223, 205, 187, 1) 100.2%
+  );
+  height: 28rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0004);
+}
+.card-topsuit {
+  font-size: 5rem;
+  align-self: flex-start;
+  padding-left: 1rem;
+  position: relative;
+  top: -15px;
+}
+.card-centersuit {
+  font-size: 5rem;
+  align-self: center;
+  justify-content: center;
+}
+.card-bottomsuit {
+  font-size: 5rem;
+  align-self: flex-end;
+  justify-content: end;
+  transform: rotate(180deg);
+  padding-left: 1rem;
+  position: relative;
+  bottom: -15px;
+}
+.color-black {
+  background: -webkit-linear-gradient(
+    109.6deg,
+    rgba(15, 2, 2, 1) 11.2%,
+    rgba(36, 163, 190, 1) 91.1%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.color-red {
+  background: -webkit-linear-gradient(rgb(255, 32, 32), rgb(255, 168, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #43cea2 0%,
+    #185a9d 51%,
+    #43cea2 100%
+  );
+}
+.btn-grad {
+  margin-bottom: 50px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
