@@ -13,8 +13,8 @@ body {
 }
 .card {
   background-image: linear-gradient(
-    99.6deg,
-    rgba(112, 128, 152, 1) 10.6%,
+    135deg,
+    rgb(150, 163, 182) 10.6%,
     rgba(242, 227, 234, 1) 32.9%,
     rgba(234, 202, 213, 1) 52.7%,
     rgba(220, 227, 239, 1) 72.8%,
@@ -25,11 +25,12 @@ body {
   height: 28rem;
   width: 20rem;
   border-radius: 0.5rem;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
   -webkit-box-reflect: below 1px
     linear-gradient(transparent, transparent, #0004);
+  margin: 15px;
 }
 .card-topsuit {
   font-size: 5rem;
