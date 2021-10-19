@@ -32,6 +32,7 @@ body {
     linear-gradient(transparent, transparent, #0004);
   margin: 15px;
 }
+
 .card-topsuit {
   font-size: 5rem;
   align-self: flex-start;
