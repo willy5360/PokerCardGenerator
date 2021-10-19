@@ -2,7 +2,7 @@
 import "bootstrap";
 import "./style.css";
 
-const NUMBER_CENTER = ["A", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
+const NUMBER_CENTER = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
 const ICON = ["♦", "♥", "♠", "♣"];
 const BODY = document.querySelector("body");
 const randomIcon = randomValue(ICON);
